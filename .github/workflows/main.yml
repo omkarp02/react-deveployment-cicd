@@ -1,8 +1,8 @@
 name: Slack Notifications
 
 on:
-  push:
-    branches: [ main ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
   notifySlack:
@@ -15,4 +15,4 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: abinoda/slack-action@master
       with:
-        args: '{\"channel\":\"C04AH060T63\",\"text\":\"pushed\"}'
+        args: '{\"channel\":\"C022P4P05TP\",\"text\":\"pushed"}'
