@@ -1,1 +1,1 @@
-console.log("hello world asdf")
+console.log("hello world")
