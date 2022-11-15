@@ -1,8 +1,8 @@
 name: Slack Notifications
 
 on:
-  pull_request:
-    branches: [ master ]
+  push:
+    branches: [ "main" ]
 
 jobs:
   notifySlack:
