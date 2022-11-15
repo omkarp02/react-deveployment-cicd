@@ -15,4 +15,4 @@ jobs:
         SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       uses: abinoda/slack-action@master
       with:
-        args: '{\"channel\":\"C022P4P05TP\",\"text\":\"pushed"}'
+        args: '{\"channel\":\"C022P4P05TP\",\"text\":\"pushed\"}'
